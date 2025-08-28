@@ -25,7 +25,8 @@
               "Slider Settings/Min": 0.7,
               "Slider Settings/Max": 1.0,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "0,0": {
@@ -42,7 +43,8 @@
               "Slider Settings/Min": -1.0,
               "Slider Settings/Max": 1.0,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "0,2": {
@@ -59,7 +61,8 @@
               "Slider Settings/Min": 0.5,
               "Slider Settings/Max": 1.0,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "0,3": {
@@ -76,7 +79,8 @@
               "Slider Settings/Min": 0.3,
               "Slider Settings/Max": 0.7,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "0,4": {
@@ -93,7 +97,8 @@
               "Slider Settings/Min": 0.3,
               "Slider Settings/Max": 1.0,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "3,3": {
@@ -257,7 +262,8 @@
               "Slider Settings/Min": -1.0,
               "Slider Settings/Max": 1.0,
               "Slider Settings/Block increment": 0.0625,
-              "Visuals/Display value": true
+              "Visuals/Display value": true,
+              "Visuals/Orientation": "HORIZONTAL"
             }
           },
           "7,5": {
@@ -506,10 +512,7 @@
               "Y-axis/Automatic bounds": true,
               "Y-axis/Upper bound": 1.0,
               "Y-axis/Lower bound": -1.0,
-              "Y-axis/Unit": "ul",
-              "Visible data/SmartDashboard/Out Pivot": true,
-              "Visible data/SmartDashboard/SP Pivot": true,
-              "Visible data/SmartDashboard/Sensor Pivot": true
+              "Y-axis/Unit": "ul"
             }
           },
           "12,6": {
@@ -566,9 +569,9 @@
     }
   ],
   "windowGeometry": {
-    "x": 1912.0,
+    "x": -8.0,
     "y": -8.0,
     "width": 1936.0,
-    "height": 1048.0
+    "height": 1056.0
   }
 }

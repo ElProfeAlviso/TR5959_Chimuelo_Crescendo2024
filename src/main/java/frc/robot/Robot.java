@@ -79,6 +79,8 @@ import edu.wpi.first.networktables.NetworkTableInstance;
     
 */
 
+
+
 public class Robot extends TimedRobot {
   
   boolean TiroAuto;//Declaracion de variables y Objetos.
@@ -247,7 +249,10 @@ public class Robot extends TimedRobot {
     m_chooser.addOption("Rojo Centro", kRojoCentroAuto);
     m_chooser.addOption("Rojo Derecha", kRojoDerechaAuto);
 
+    SmartDashboard.putNumber(kAzulCentroAuto, intervaloLeds);
+
     SmartDashboard.putData("Seleccion Autonomo", m_chooser);
+
 
 
 
@@ -352,6 +357,9 @@ public class Robot extends TimedRobot {
     SmartDashboard.putNumber("Angulo", (int) navx.getYaw());
     SmartDashboard.putNumber("Angulo Pivot", 0);
     SmartDashboard.putNumber("Posicion Tiro", 45);
+
+   SmartDashboard.putNumber(kAzulCentroAuto, intervaloLeds);
+   pivotPID.calculate(kDefaultPeriod, pivotPIDsetpoint);
 
    
     UsbCamera camera = CameraServer.startAutomaticCapture();// Inicia transmision de webcam.
